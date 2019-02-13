@@ -1,0 +1,17 @@
+//
+//  IntroductoryPagesHelper.h
+//  Heroin
+//
+//  Created by Benson on 2018/9/10.
+//  Copyright © 2018年 Benson. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface IntroductoryPagesHelper : NSObject
+
++ (instancetype)shareInstance;
+
++ (void)showIntroductoryPageView:(NSArray *)imageArray;
+
+@end
